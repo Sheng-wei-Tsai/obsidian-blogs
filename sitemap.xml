@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:53403/tags/github/</loc>
+    <loc>/tags/github/</loc>
     <lastmod>2025-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53403/tags/hugo/</loc>
+    <loc>/tags/hugo/</loc>
     <lastmod>2025-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53403/posts/henrys-blog-pipeline/</loc>
+    <loc>/posts/henrys-blog-pipeline/</loc>
     <lastmod>2025-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53403/tags/obsidian/</loc>
+    <loc>/tags/obsidian/</loc>
     <lastmod>2025-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53403/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2025-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53403/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2025-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53403/</loc>
+    <loc>/</loc>
     <lastmod>2025-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53403/categories/</loc>
+    <loc>/categories/</loc>
   </url>
 </urlset>
