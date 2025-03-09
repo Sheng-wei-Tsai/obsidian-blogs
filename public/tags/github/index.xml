@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on Terminal</title>
+    <link>//localhost:53403/tags/github/</link>
+    <description>Recent content in Github on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 09 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:53403/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My first obsidian blog</title>
+      <link>//localhost:53403/posts/henrys-blog-pipeline/</link>
+      <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:53403/posts/henrys-blog-pipeline/</guid>
+      <description>&lt;h1 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Obsidian is the BEST notes app in the world.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-setup&#34;&gt;The Setup&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a new folder labeled &lt;em&gt;blog-posts&lt;/em&gt; . This is where I will add my blog posts&lt;/li&gt;
+&lt;li&gt;&amp;hellip; that&amp;rsquo;s all i need to do&lt;/li&gt;
+&lt;li&gt;Actually find out where my Obsidian directories are. Right click my &lt;em&gt;blog-posts&lt;/em&gt; folder and choose &lt;em&gt;show in system explorer&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;&amp;rsquo; need this directory in upcoming steps.&lt;/li&gt;
+&lt;li&gt;path: &amp;ldquo;/Users/tsaishengwei/Desktop/Obsidian-blogs/blog-posts&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;setting-up-hugo&#34;&gt;Setting up Hugo&lt;/h2&gt;
+&lt;h3 id=&#34;install-hugo&#34;&gt;Install Hugo&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/installation&#34;&gt;https://gohugo.io/installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CLI: &lt;code&gt;brew install hugo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Theme: &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;https://themes.gohugo.io/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;use git submodule - ```bash
+git submodule add -f &lt;a href=&#34;https://github.com/panr/hugo-theme-terminal.git&#34;&gt;https://github.com/panr/hugo-theme-terminal.git&lt;/a&gt; themes/terminal&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Obsidian is the BEST notes app in the world.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-setup&#34;&gt;The Setup&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a new folder labeled &lt;em&gt;blog-posts&lt;/em&gt; . This is where I will add my blog posts&lt;/li&gt;
+&lt;li&gt;&amp;hellip; that&amp;rsquo;s all i need to do&lt;/li&gt;
+&lt;li&gt;Actually find out where my Obsidian directories are. Right click my &lt;em&gt;blog-posts&lt;/em&gt; folder and choose &lt;em&gt;show in system explorer&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;&amp;rsquo; need this directory in upcoming steps.&lt;/li&gt;
+&lt;li&gt;path: &amp;ldquo;/Users/tsaishengwei/Desktop/Obsidian-blogs/blog-posts&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;setting-up-hugo&#34;&gt;Setting up Hugo&lt;/h2&gt;
+&lt;h3 id=&#34;install-hugo&#34;&gt;Install Hugo&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/installation&#34;&gt;https://gohugo.io/installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CLI: &lt;code&gt;brew install hugo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Theme: &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;https://themes.gohugo.io/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;use git submodule - ```bash
+git submodule add -f &lt;a href=&#34;https://github.com/panr/hugo-theme-terminal.git&#34;&gt;https://github.com/panr/hugo-theme-terminal.git&lt;/a&gt; themes/terminal&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Config the theme&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;baseurl = &amp;#34;/&amp;#34; languageCode = &amp;#34;en-us&amp;#34; # Add it only if you keep the theme in the `themes` directory. # Remove it if you use the theme as a remote Hugo Module. theme = &amp;#34;terminal&amp;#34; pagerSize = 5 [params] # dir name of your main content (default is `content/posts`). # the list of set content will show up on your index page (baseurl). contentTypeName = &amp;#34;posts&amp;#34; # if you set this to 0, only submenu trigger will be visible showMenuItems = 2 # show selector to switch language showLanguageSelector = false # set theme to full screen width fullWidthTheme = false # center theme with default width centerTheme = false # if your resource directory contains an image called `cover.(jpg|png|webp)`, # then the file will be used as a cover automatically. # With this option you don&amp;#39;t have to put the `cover` param in a front-matter. autoCover = true # set post to show the last updated # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated showLastUpdated = false # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author # updatedDatePrefix = &amp;#34;Updated&amp;#34; # whether to show a page&amp;#39;s estimated reading time # readingTime = false # default # whether to show a table of contents # can be overridden in a page&amp;#39;s front-matter # Toc = false # default # set title for the table of contents # can be overridden in a page&amp;#39;s front-matter # TocTitle = &amp;#34;Table of Contents&amp;#34; # default # Set date/time format for posts # This will impact the date/time displayed on # index.html, the posts list page, and on posts themselves # This value can also be configured per-post on front matter # If you have any issues with the timezone rendering differently # than you expected, please ensure your timezone is correctly set # on your server. # This value can be customized according to Hugo documentation: # https://gohugo.io/functions/time/format/ # Default value (no changes needed): # dateFormat = &amp;#34;2006-01-02&amp;#34; # Example format, with date, time, and timezone abbreviation: # dateFormat = &amp;#34;2006-01-02 3:04:06 PM MST&amp;#34; [params.twitter] # set Twitter handles for Twitter cards # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution # do not include @ creator = &amp;#34;&amp;#34; site = &amp;#34;&amp;#34; [languages] [languages.en] languageName = &amp;#34;English&amp;#34; title = &amp;#34;Terminal&amp;#34; [languages.en.params] subtitle = &amp;#34;A simple, retro theme for Hugo&amp;#34; owner = &amp;#34;&amp;#34; keywords = &amp;#34;&amp;#34; copyright = &amp;#34;&amp;#34; menuMore = &amp;#34;Show more&amp;#34; readMore = &amp;#34;Read more&amp;#34; readOtherPosts = &amp;#34;Read other posts&amp;#34; newerPosts = &amp;#34;Newer posts&amp;#34; olderPosts = &amp;#34;Older posts&amp;#34; missingContentMessage = &amp;#34;Page not found...&amp;#34; missingBackButtonLabel = &amp;#34;Back to home page&amp;#34; minuteReadingTime = &amp;#34;min read&amp;#34; words = &amp;#34;words&amp;#34; [languages.en.params.logo] logoText = &amp;#34;Terminal&amp;#34; logoHomeLink = &amp;#34;/&amp;#34; [languages.en.menu] [[languages.en.menu.main]] identifier = &amp;#34;about&amp;#34; name = &amp;#34;About&amp;#34; url = &amp;#34;/about&amp;#34; [[languages.en.menu.main]] identifier = &amp;#34;showcase&amp;#34; name = &amp;#34;Showcase&amp;#34; url = &amp;#34;/showcase&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Create a same folder as &lt;em&gt;blog-posts&lt;/em&gt; same as on obsidian&lt;/li&gt;
+&lt;li&gt;Then Syncing Obsidian to Hugo&lt;/li&gt;
+&lt;li&gt;hugo path: &amp;ldquo;/Users/tsaishengwei/workspace/github.com/Sheng-wei-Tsai/henryblogs/content/blog-posts&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;rsync -av &amp;ndash;delete &amp;ldquo;sourcepath&amp;rdquo; &amp;ldquo;destinationpath&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Install Git &amp;amp; Go&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;git-config&#34;&gt;git config&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;git config &amp;ndash;global &amp;ndash;list&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;mailto:user.email=henry88002605@gmail.com&#34;&gt;user.email=henry88002605@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;user.name=Henry Tsai&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
+&lt;p&gt;![[mickey-st-patricks-day.png]]&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
