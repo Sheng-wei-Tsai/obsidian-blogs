@@ -20,19 +20,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           submodules: true
           fetch-depth: 0
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify -t terminal
+
+      - name: Add .nojekyll file
+        run: touch ./public/.nojekyll
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
