@@ -3,9 +3,9 @@ import re
 import shutil
 
 # Paths
-posts_dir = "/Users/tsaishengwei/workspace/github.com/Sheng-wei-Tsai/henryblogs/content/posts"
+posts_dir = "/Users/tsaishengwei/workspace/github.com/Sheng-wei-Tsai/obsidian-blogs/content/posts"
 attachments_dir = "/Users/tsaishengwei/Documents/Attachments"
-static_images_dir = "/Users/tsaishengwei/workspace/github.com/Sheng-wei-Tsai/henryblogs/static/images"
+static_images_dir = "/Users/tsaishengwei/workspace/github.com/Sheng-wei-Tsai/obsidian-blogs/static/images"
 
 # Ensure the target directory exists
 os.makedirs(static_images_dir, exist_ok=True)
